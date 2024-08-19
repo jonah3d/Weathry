@@ -1,0 +1,32 @@
+
+
+.text-field {
+    -fx-font-family: "Arial"; /* Assuming Arial font */
+    -fx-text-fill: white; /* White text color */
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-border-width: 0px; /* No border */
+}
+
+.cityField {
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-font-size: 2.5em;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.countryField {
+    -fx-font-size: 1.5em;
+    -fx-text-alignment: center;
+    -fx-font-family: "Calibri Light";
+    -fx-text-alignment: center;
+}
+
+.temperatureField {
+    -fx-font-size: 6em;
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+    -fx-font-family: "Arial Black";
+    -fx-alignment: center;
+    -fx-effect: dropshadow(one-pass-box, rgba(39, 39, 39, 0.75), 10, 0.2, 0.2, 5);
+
+}

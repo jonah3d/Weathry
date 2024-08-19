@@ -1,0 +1,1 @@
+jpackage --type exe --app-version "1.0" --input . --dest . --main-jar .\Weathry.jar --main-class com.jonah3d.weathry.MainWidget --module-path "C:\Program Files\Java\javafx-jmods-22.0.2" --add-modules javafx.controls,javafx.fxml --win-shortcut --win-menu --icon "weathericon.ico" --name "Weathry"

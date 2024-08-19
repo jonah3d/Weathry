@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="320.0" stylesheets="@../STYLESHEET/MainWidget.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jonah3d.weathry.Controllers.MainWidgetController">
+   <StackPane prefHeight="240.0" prefWidth="320.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ImageView fx:id="bg_image" fitHeight="240.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true" scaleX="1.4" scaleY="1.4">
+         <Image url="@../IMAGES/OTHER_CONDITIONS.png" />
+      </ImageView>
+   </StackPane>
+   <Label fx:id="city_lbl" alignment="CENTER" layoutX="38.0" prefHeight="30.0" prefWidth="282.0" styleClass="cityField" text="LONDON" textFill="WHITE" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Label>
+   <Label fx:id="country_lbl" alignment="CENTER" styleClass="countryField" text="Spain" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <Label fx:id="temperature_lbl" alignment="CENTER" prefHeight="199.0" prefWidth="327.0" styleClass="temperatureField" text="9" textFill="WHITE" AnchorPane.topAnchor="50.0">
+      <font>
+         <Font size="44.0" />
+      </font>
+   </Label>
+</AnchorPane>
