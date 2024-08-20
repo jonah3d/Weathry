@@ -1,12 +1,4 @@
-HOW TO BUILD THE PROJECT
-.
-.
-.
-.
-.
-.
-.
-.
+#HOW TO BUILD THE PROJECT
 .
 .
 .
